@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proxima A3 Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3fb57646b0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <video autoplay loop muted class="video-bg">
+            <source src="videos/ad.mp4" type="video/mp4">
+        </video>
+        <img src="images/proxima logo.png" alt="Proxima A3 Logo" class="logo">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Creative Graphics & Web Designer</p>
+        <a href="hire.html" class="hire-btn">PLACE YOUR ORDER</a>
+    </section>
+
+    <header>
+        <h1>My Design Portfolio</h1>
+        <p>Creative Graphics & Web Design</p>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Me</h2>
+        <p>I'm a passionate <strong>Graphics & Web Designer</strong> with experience in creating stunning visuals for brands. Let’s bring your ideas to life!</p>
+    </section>
+    
+    <!-- Portfolio Gallery -->
+<section class="portfolio-gallery">
+    <h2>My Work</h2>
+    
+    <div class="portfolio-item">
+        <img src="images/design1.jpg" alt="Design 1">
+        <h3>Design 1</h3>
+        <p>Creative and modern design concept.</p>
+        <a href="#">View More</a>
+    </div>
+
+    <div class="portfolio-item">
+        <img src="images/design2.jpg" alt="Design 2">
+        <h3>Design 2</h3>
+        <p>Innovative UI with a sleek layout.</p>
+        <a href="#">View More</a>
+    </div>
+
+    <div class="portfolio-item">
+        <img src="images/design3.jpg" alt="Design 3">
+        <h3>Design 3</h3>
+        <p>Dark-themed design with glowing effects.</p>
+        <a href="#">View More</a>
+    </div>
+
+    <div class="portfolio-item">
+        <img src="images/design4.jpg" alt="Design 4">
+        <h3>Design 4</h3>
+        <p>Minimalistic and clean aesthetic.</p>
+        <a href="#">View More</a>
+    </div>
+</section>
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2>What Clients Say</h2>
+        <div class="testimonial">
+            <p>"Proxima A3 delivered the best design for my brand!"</p>
+            <strong>- Happy Client</strong>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/mkgobkra" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/yourwhatsappnumber" class="whatsapp-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer>
+        <a href="https://instagram.com/proximaa3graphics" target="_blank" class="insta-icon">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </footer>
+
+    <!-- Popup Offer -->
+    <div class="popup" id="popup">
+        <p>🔥 Special Offer: Get 20% off your first design! 🔥</p>
+        <a href="#order" class="btn">Claim Now</a>
+        <span class="close-popup" onclick="document.getElementById('popup').style.display='none'">&times;</span>
+    </div>
+
+    <script>
+        // Display popup every 5 seconds
+        setTimeout(() => {
+            document.getElementById('popup').style.display = 'block';
+        }, 5000);
+    </script>
+</body>
+</html>

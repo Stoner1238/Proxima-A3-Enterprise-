@@ -1,0 +1,599 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0033ff, #00eaff, #ff009d);
+    color: white;
+}
+
+/* Forms Styling */
+form {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 0 10px #ff009d;
+}
+
+form input,
+form textarea,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    margin-top: 15px;
+    background: #ff009d;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    box-shadow: 0 0 10px #ff009d;
+}
+
+form button:hover {
+    background: #00eaff;
+    box-shadow: 0 0 15px #00eaff;
+}
+
+/* Contact Me Section */
+.contact-section {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    margin: 30px auto;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    color: #00eaff;
+    font-size: 22px;
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Place Order Section */
+.order-form {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #ff009d;
+}
+
+/* WhatsApp Floating Button */
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    form {
+        width: 95%;
+    }
+    
+    .contact-section {
+        width: 95%;
+    }
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0033ff, #00eaff, #ff009d);
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+/* Logo */
+.logo {
+    width: 80px; /* Smaller size */
+    height: 80px; /* Ensure perfect circle */
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+    border: 3px solid white;
+}
+
+/* Responsive Video Background */
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Pricing Table */
+.pricing-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.plan {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 250px;
+}
+
+.plan.premium {
+    border: 2px solid #ff009d;
+}
+
+/* Testimonials */
+.testimonials {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* WhatsApp Floating Button */
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+/* Contact Me Section */
+.contact-section {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    margin: 30px auto;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.contact-section h2 {
+    text-align: center;
+    color: #00eaff;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-section button {
+    margin-top: 15px;
+    background: #ff009d;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ff009d;
+}
+
+.contact-section button:hover {
+    background: #00eaff;
+    box-shadow: 0 0 15px #00eaff;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero {
+        padding: 60px 10px;
+    }
+
+    .pricing-table {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plan {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .contact-section {
+        width: 95%;
+    }
+}
+
+.hire-me-btn {
+    display: inline-block;
+    background: #ff009d;
+    color: white;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 0 10px #ff009d;
+    transition: 0.3s ease-in-out;
+}
+
+.hire-me-btn:hover {
+    background: #00eaff;
+    box-shadow: 0 0 15px #00eaff;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.service-card {
+    background: #131313;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.order-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #ff0099;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.order-btn:hover {
+    background: #e60082;
+}
+
+.order-form {
+    max-width: 500px;
+    margin: auto;
+    background: #131313;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.order-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.order-form input, 
+.order-form select, 
+.order-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #222;
+    color: white;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background: #ff0099;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background: #e60082;
+}
+
+/* Style for the Portfolio Header */
+.header-title {
+    font-size: 40px; /* Increase text size */
+    font-weight: 900; /* Make it very bold */
+    text-transform: uppercase; /* Convert to uppercase */
+    text-shadow: 3px 3px 10px rgba(255, 255, 255, 0.7); /* Add glow effect */
+    color: white; /* Ensure text is visible */
+}
+
+/* Subtitle Styling */
+.header-subtitle {
+    font-size: 25px;
+    font-weight: 600;
+    color: #ff0099; /* Stylish contrast color */
+    text-shadow: 2px 2px 5px rgba(255, 0, 153, 0.5);
+}
+
+/* "PLACE YOUR ORDER" Link */
+.place your order {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff0099;
+    text-decoration: none;
+    border: 2px solid #ff0099;
+    padding: 8px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.place you order:hover {
+    background: #ff0099;
+    color: white;
+    text-shadow: none;
+}
+
+/* Order Page Header */
+.order-header {
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(45deg, #007BFF, #ff0099);
+    color: white;
+}
+
+/* Main Title */
+.header-title {
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 10px rgba(255, 255, 255, 0.7);
+}
+
+/* Subtitle */
+.header-subtitle {
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffdd57;
+    text-shadow: 2px 2px 5px rgba(255, 221, 87, 0.5);
+}
+
+/* Hire Me Button */
+.hire-me {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    background: #ff0099;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.hire-me:hover {
+    background: white;
+    color: #ff0099;
+    border: 2px solid #ff0099;
+}
+
+/* Order Form */
+.order-form {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.order-form h2 {
+    text-align: center;
+}
+
+/* Form Inputs */
+.order-form input, .order-form select, .order-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Submit Button */
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: #ff0099;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #cc0077;
+}
+
+/* Portfolio Gallery - Uniform Small Size */
+.portfolio-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center images */
+    gap: 8px;
+    padding: 10px;
+}
+
+/* Portfolio Item - Fixed Small Size */
+.portfolio-item {
+    width: 120px; /* Set a small width */
+    height: 120px; /* Set a small height */
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease-in-out;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+/* Portfolio Image - Fits Small Container */
+.portfolio-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fills the small box */
+    border-radius: 6px;
+}
+
+/* Portfolio Overlay (Optional for Hover Effect) */
+.portfolio-overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 50%;
+    padding: 3px;
+    text-align: center;
+    font-size: 10px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.portfolio-item:hover .portfolio-overlay {
+    opacity: 1;
+}
+
+/* Portfolio Title */
+.portfolio-title {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* View More Button */
+.view-more {
+    display: inline-block;
+    margin-top: 3px;
+    padding: 3px 5px;
+    font-size: 10px;
+    background: #ff0099;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.view-more:hover {
+    background: #cc0077;
+}
+
+/* Portfolio Gallery - Centered & Grid Layout */
+.portfolio-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Small responsive grid */
+    gap: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+
+/* Portfolio Item - Set Small Fixed Size */
+.portfolio-item {
+    width: 60px; /* Small fixed width */
+    height: 60px; /* Small fixed height */
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease-in-out;
+}
+
+.portfolio-item:hover {
+    transform: scale(2.05);
+}
+
+/* Portfolio Image - Ensures It Stays Small */
+.portfolio-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Prevents stretching */
+    border-radius: 6px;
+}
+
+/* Optional: Portfolio Overlay for Hover Effect */
+.portfolio-overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 100%;
+    padding: 3px;
+    text-align: center;
+    font-size: 10px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.portfolio-item:hover .portfolio-overlay {
+    opacity: 1;
+}
+
+}
