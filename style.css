@@ -123,12 +123,12 @@ body {
 
 /* Logo */
 .logo {
-    width: 80px; /* Smaller size */
-    height: 80px; /* Ensure perfect circle */
+    width: 150px; /* Increase size */
+    height: 150px; /* Keep it a perfect circle */
     border-radius: 50%;
     display: block;
     margin: 0 auto 20px;
-    border: 3px solid white;
+    border: 5px solid white; /* Make the border more visible */
 }
 
 /* Responsive Video Background */
@@ -370,20 +370,21 @@ body {
     text-shadow: 2px 2px 5px rgba(255, 0, 153, 0.5);
 }
 
-/* "PLACE YOUR ORDER" Link */
-.place your order {
+/* Place Your Order Button */
+.hire-btn {
     font-size: 22px;
     font-weight: bold;
     color: #ff0099;
     text-decoration: none;
-    border: 2px solid #ff0099;
-    padding: 8px 20px;
+    border: 3px solid #ff0099; /* Increased border thickness */
+    padding: 10px 25px; /* Adjust padding */
     display: inline-block;
     border-radius: 5px;
     transition: 0.3s;
+    text-align: center;
 }
 
-.place you order:hover {
+.hire-btn:hover {
     background: #ff0099;
     color: white;
     text-shadow: none;
